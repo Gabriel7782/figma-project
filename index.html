@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: inter;
+    background-color: rgba(212, 209, 209, 0.74);
+    color: #717171;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+    
+}
+
+/* Navigation Section */
+header {
+    background: #e8ebf0;
+    height: 84px;
+    width: 1440;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-top: 30px;
+    justify-content: center;
+    gap: 45px;
+    height: 24px;
+    height: 588px;
+}
+
+#logo {
+    padding-left: 30px;
+    padding-right: 100px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.dli{
+    display: flex;
+    gap: 10px;
+    height:50px;
+}
+
+.btt1 {
+    margin: auto;
+    width: Hug (77px)px;
+height: Hug (40px)px;
+padding: 10px 20px 10px 20px;
+gap: 10px;
+border-radius: 6px 0px 0px 6px;
+opacity: 0px;
+ background: #F5F7FA;
+ color: #4CAF4F;
+
+}
+
+ .btt2 {
+    color: #F5F7FA;
+    background-color: #4CAF4F;
+    width: Hug (100px)px;
+height: Hug (40px)px;
+padding: 5px; 
+gap: 10px;
+border-radius: 6px;
+opacity: 0px;
+place-content: center;
+justify-content: center;
+
+
+} 
+
+
+.btn {
+    color:whitesmoke ;
+    background-color:  #4CAF4F;
+    width: Hug (128px)px;
+    height: Hug (52px)px;
+    font-weight: bold;
+    font-size: medium ;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 5px ;
+    opacity: 0px;
+
+}
+
+
+.hero {
+    background-color: #e8ebf0;
+    display: flex;
+    width: Fixed (1,440px)px;
+    height: Hug (599px)px;
+    top: 84px;
+    left: 1px;
+    padding: 96px 144px 96px 144px;
+    gap: 104px;
+    opacity: 0px;
+    /* place-content: center; */
+    place-items: center;
+
+} 
+
+.les {
+    width: 657px;
+    height: 152px;
+    gap: 30px;
+    opacity: 0px;
+font-family: Inter;
+font-size: 40px;
+line-height: 76px;
+text-align: left;
+
+
+}
+
+.para {
+    padding-top: 15px;
+    width: 657px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+
+}
+
+.btn2 {
+    padding-top: 30px;
+}
+
+
+#membership{
+    background-color: white;
+    display: flex;
+    padding-right: 70px ;
+    padding-left: 70px ;
+    padding-bottom: 60px ;
+    padding-top: 30px;
+    margin: auto;
+    gap: 60px;
+    text-align: center;
+    text-wrap: wrap;
+    
+
+
+}
+
+
+.community {
+    background-color: white;
+
+}
+
+.mm {
+width: Fixed (299px)px;
+height: Hug (260px)px;
+padding: 24px 32px 24px 32px;
+gap: 8px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+font-size: 33px;
+font-weight: bolder;
+
+}
+
+.overview {
+   
+
+}
+
+.frame {
+    margin: auto;
+}
+
+.fdiv {
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+}
+
+.pp {
+    font-size: 19px;
+}
+
+#h2 {
+    background-color:  #ffffff9f;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: auto;
+    width: 950px;
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.m2 {
+    background-color: #ffffff9f;
+box-shadow: 0px 2px 4px 0px #8da1b433;
+
+}
+
+.p {
+    background-color:  #ffffff9f;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 40px;
+
+}
+
+.control {
+    background-color:  #ffffff9f;
+    display: block;
+    text-align: center;
+    place-content: center;
+    margin: auto;
+    padding-top: 50px;
+}
+/* Audience Section */
+.audience {
+    display: flex;
+    width: 1440px;
+    height: 416px;
+    padding: 50px 144px;
+    gap: 16px;
+    text-align: left;
+}
+
+.audience h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.audience ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.audience li {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Overview Section */
+.overview {
+    text-align: left;
+    display: flex;
+    background-color: white;
+    gap: 70px;
+    width: Fixed (1,440px)px;
+height: 640px;
+padding: 120px 144px 0px 144px;
+justify: space-between;
+opacity: 0px;
+}
+
+.overview h2 {
+    font-style: inter;
+    font-size: 2rem;
+    color: rgb(114, 114, 129);
+    
+}
+
+.overview p {
+    font-size: 1rem;
+    color: #555;
+    margin: 20px 0;
+    
+}
+
+.overview button {
+    background: #4CAF4F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Statistics Section */
+.statistics {
+    background: #e8ebf0;
+    width: 1440px;
+    padding: 50px 144px;
+    display: flex;
+    justify-content: space-around;
+    gap: 48px;
+
+}
+
+.stats-item h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.stats-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.stsd1 {
+
+}
+.stsd2 {
+    display:flex ;
+    gap: 70px;
+}
+
+.stsd3 {
+    display: flex;
+    gap: 100px;
+    padding-top: 50px;
+
+}
+
+/* Insights Section */
+.insights {
+    background-color:white ;
+    display: flex;
+    width: 1440px;
+    padding: 50px 144px;
+    text-align: left;
+    align-items: center;
+}
+
+.insights h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.insights p {
+    font-size: 1rem;
+    color: #717171;
+    margin: 20px 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: normal;
+line-height: 20px;
+text-align: left;
+
+}
+
+.insights button {
+    background-color:  #4CAF4F;
+    ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    width: 1440px;
+    height: 500px;
+    padding: 50px 144px;
+    background-color: #e8ebf0;
+    display: flex;
+
+gap: 70px;
+
+}
+
+ .testimonials blockquote {
+    color: #555;
+    margin-bottom: 10px; 
+    font-style: inter;
+    font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+} 
+
+ .testimonials footer {
+    color: #333;
+    font-weight: bold;
+    font-style: inter;
+} 
+
+
+.testimonials button {
+    background-color: #4CAF4F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-style: inter;
+}
+
+/* Blog Section */
+.blog {
+    background-color: white ;
+    padding: 50px 144px;
+    width: Hug (1,440px)px;
+height: Hug (506px)px;
+gap: 30px;
+opacity: 0px;
+
+}
+
+.blog h2 {
+    color: #333;
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+text-align: center;
+
+}
+
+.blog p {
+font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+padding-left:240px;
+padding-right: 240px;
+padding-top: 10px;
+
+}
+
+.blog article {
+    margin: 20px 0;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+
+}
+
+.blog article h3 {
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+.blog a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.blog a:hover {
+    text-decoration: underline;
+}
+
+.containerx {
+    display: flex;
+    gap: 50px;
+    width: Hug (1,440px)px;
+    margin: auto;
+    padding-right:px;
+    padding-top: 70px;
+height: Hug (506px)px;
+opacity: 0px;
+align-items: center;
+place-content: center;
+
+    
+}
+
+article {
+    gap: 150px;
+
+    /* padding-left: 70px; */
+    /* padding-right: 50px; */
+}
+/* Call to Action Section */
+.call-to-action {
+    color:#263240 ;
+    width: 1440px;
+    padding: 50px 300px;
+    text-align: center;
+    background-color: #e8ebf0;
+font-family: Inter;
+font-size: 64px;
+font-weight: 600;
+line-height: 76px;
+
+}
+
+.call-to-action button {
+    background: #4CAF4F;
+    color:white ;
+    width: Hug (250px)px;
+height: Hug (70px)px;
+padding: 14px 32px 14px 32px;
+gap: 8px;
+border-radius: 6px 6px;
+opacity: 0px;
+
+}
+
+/* Footer Section */
+footer {
+    padding: 50px 144px;
+    background-color: #263238;
+    color: #fff;
+    text-align: center;
+    width: Hug (1,440px)px;
+height: Hug (328px)px;
+padding: 64px 165px 64px 165px;
+gap: 125px;
+opacity: 0px;
+font-style: inter;
+
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+    color: white;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 0.8rem;
+    
+}
+
+.footer-links ul li a:hover {
+    color: #007bff;
+}
+
+.newsletter form {
+    display: flex;
+    gap: 5px;
+}
+
+.newsletter input[type="email"] {
+    background-color: #d9dbe1b6;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    width: 255px;
+height: 40px;
+gap: 0px;
+opacity: 0px;
+border-radius: 4px;
+
+
+}
+
+.newsletter button {
+    background: #4CAF4F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Section -->
+    <header>
+        <div>
+           
+            <nav>
+                <ul>
+                    <div id="logo">
+                    <li> <img src="Logo.png" alt="Nexcent-logo"></li>
+                    </div>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <div class="dli">
+                    <li class="btt1"><a href="#" style="color: #4CAF4F;">Login</a></li>
+                    <li class="btt2"><a href="#" style="color: #F5F7FA ;">Sign Up</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+
+    <section class="hero">
+        <div class="lesson">
+            <div class="les">
+        <h1>Lessons and insights from 8 years</h1>
+          </div>
+        <div class="para">
+        <p>Where to grow your business as a photographer: site or social media?</p>
+       </div>
+       <div class="btn2">
+        <button class="btn">Register</button>
+       </div>
+        </div>
+        <div class="image">
+            <img src="Illustration.png" alt="Illustration">
+        </div>
+    </section>
+<section class="community">
+    
+    <div class="control">
+        <div>
+            <h2 id="h2">Manage your entire community in a single system</h2>
+            </div>
+            <div>
+            <p class="p">Who is Nextcent suitable for?</p>
+            </div>
+    <div id="membership">
+        <div class="m2">
+            <img src="Icon.png" alt="Icon">
+        <h3 class="mm">Membership Organisations</h3>
+        <p class="pp">Our membership management software provides full automation 
+            of membership renewals and payments</p>
+        </div>
+        <br>
+        <div class="m2">
+            <img src="Icon-(1).png" alt="Icon">
+        <h3 class="mm">National Associations</h3>
+        <p class="pp">Our membership management software provides full automation 
+        of membership renewals and payments</p>
+        </div>
+        <br>
+        <div class="m2">
+            <img src="Icon-(2).png" alt="Icon">
+        <h3 class="mm">Clubs And Groups</h3>
+        <p class="pp">Our membership management software provides full automation 
+            of membership renewals and payments</p>
+        </div>
+        <br>
+        </div>
+    </div>
+</section>
+   
+    
+
+    <!-- Overview Section -->
+    <section class="overview">
+        <div class="frame">
+        <img src="Frame-35.png" alt="">
+       </div >
+       <div class="fdiv">
+        <h2 style="font-size: 40px; color: #333;">The unseen of spending three years at Pixelgrade</h2>
+        <p style="font-size:15px; color: #333;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+        <button style="width: Hug (151px)px;
+        height: Hug (52px)px;
+        padding: 14px 32px 14px 32px;
+        gap: 10px;
+        border-radius: 6px;
+        opacity: 0px;
+        ">Learn More</button>
+     </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="loc" style="padding-top: 30px; padding-left: px; color: #292929;">
+            <h1 style="font-size: 35px;">Helping a local <br><span style="color: #4CAF4F;">business reinvent itself</span></h1>
+        <p style="color: #292929; font-size: 16px; padding-top: 10px;">We reached here with our hard work and dedication</p>
+        </div>
+        <div class="stsd1">
+            <div class="stsd2">
+                <div class="icdiv" style="display: flex; gap: 12px;">
+                    <img src="Icon-3.png" alt="icon">
+                <div class="stats-item" style="">
+                    <h3>2,245,341</h3>
+                    <p>Members</p>
+                </div>
+            </div>
+            <div class="icdiv" style="display: flex; gap: 12px;">
+                <img src="Icon-4.png" alt="icon">
+                <div class="stats-item">
+                    <h3>46,328</h3>
+                    <p>Clubs</p>
+                </div>
+            </div>
+            </div>
+        <div class="stsd3">
+            <div class="icdiv" style="display: flex; gap: 12px;">
+            <img src="Icon-5.png" alt="icon">
+            <div class="stats-item">
+                <h3>828,867</h3>
+                <p>Event Bookings</p>
+                </div>
+            </div>
+            <div class="icdiv" style="display: flex; gap: 12px;">
+            <img src="Icon-6.png" alt="icon">
+            <div class="stats-item">
+                <h3>1,926,436</h3>
+                <p>Payments</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </section>
+
+    <!-- Insights Section -->
+    <section class="insights" >
+        <img src="pana.png" alt="">
+        <div class="pana" style="width: Fixed (661px)px;
+        height: Hug (308px)px;
+        gap: 32px;
+        opacity: 0px;
+        ">
+        <h2>How to design your site footer like we did</h2>
+        <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla 
+            commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+        <button style="width: Hug (151px)px;
+        height: Hug (57px)px;
+        padding: 14px 32px 14px 32px;
+        gap: 10px;
+        border-radius: 4px;
+        opacity: 0px;
+        ">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div>
+            <img src="image-9.png" alt="image" width="400px"
+            height="380px";
+            gap: 0px;
+            border-radius: 8px 0px 0px 0px;
+            opacity: 0px;
+            >
+        </div>
+        <div class="quote">
+        <blockquote>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat at dolores beatae? Eius repellendus magni non ratione incidunt quam, voluptas accusantium provident officia cum hic illum deleniti dolores corrupti excepturi!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut molestiae soluta, vero aspernatur cupiditate ullam quos, quae esse eveniet ducimus iure odit maxime in blanditiis voluptates perferendis, excepturi ipsum.
+                "Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                 tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim."</p>
+            <p style="color: #259229; font-size: 20px; font-weight: bold; padding-top: 24px;">Tim Smith</p> 
+            <p style="padding-top: 24px;">British Dragon Boat Racing Association</p>
+        </blockquote>
+        <div style="display: flex; gap: 30px; padding-top: 40px;">
+            <img src="Frame-10.png" alt="frame" width="470px" height="48px">
+        <p style="color: #2baa30; font-weight: bold; font-size: 18px; padding-top: 10px;">Meet all customers</p>
+     </div>
+    </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <h2>Caring is the new marketing</h2>
+        <p>The Nexcent blog is the best place to read about the latest membership insights, trends, and more. 
+            See who's joining the community, read about how our community are increasing their membership income, and lots more.​</p>
+   <div class="containerx">
+    <article>
+        <img src="1.png" alt="image" style="padding-left: 50px;">
+        <!-- <h3>Creating Streamlined Safeguarding Processes with OneRen</h3> -->
+        <!-- <a href="#">Read more</a> -->
+        </article>
+
+        <article>
+            <img src="2.png" alt="image">
+        <!-- <h3>What are your safeguarding responsibilities and how can you manage them?</h3> -->
+        <!-- <a href="#">Read more</a> -->
+    </article>
+
+    <article>
+        <img src="3.png" alt="image">
+        <!-- <h3>Revamping the Membership Model with Triathlon Australia</h3> -->
+        <!-- <a href="#">Read more</a> -->
+    </article>
+   </div>
+        
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="call-to-action">
+        <p>Pellentesque suscipit fringilla libero eu.</p>
+        <button>Get a Demo</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <div class="solink" style="display: block; gap: 50px; padding-left: 50px;">
+                <img src="Logo.2.png" alt="logo-sign">
+                <div style="padding-top: 30px;">
+                <p style="padding-top: 20px;">&copy; 2020 Nexcent Ltd.</p>
+                    <p style="padding: 10px;"> All rights reserved.</p>
+               </div>
+                <div style="padding-top:50px ;">
+                <img src="Social-Links.png" alt="Social-Links">
+                </div>
+
+            </div>
+            <div style="display: flex; gap: 80px;">
+            <div>
+                <h3>Company</h3>
+                <ul>
+                    <li style="padding-top: 28px; text-align: left;" ><a href="#">About us</a></li>
+                    <li style="padding-top: 28px;text-align: left;"><a href="#">Help center</a></li>
+                    <li style="padding-top: 28px; text-align: left;"><a href="#">Blog</a></li>
+                    <li style="padding-top: 28px; text-align: left;"><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Support</h3>
+                <ul>
+                    <li style="padding-top: 28px; text-align: left;"><a href="#">Terms of service</a></li>
+                    <li style="padding-top: 28px; text-align: left;"><a href="#">Privacy policy</a></li>
+                    <li style="padding-top: 28px; text-align: left;"><a href="#">Testimonials</a></li>
+                    <li style="padding-top: 28px; text-align: left;"><a href="#">Status</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3>Stay up to date</h3>
+                <form>
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
